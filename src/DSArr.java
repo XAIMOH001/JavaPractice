@@ -2,7 +2,7 @@ import java.lang.Exception;
 import java.lang.reflect.Array;
 import java.util.Scanner;
 
-public class AsgnProg1 {
+public class DSArr {
 
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
