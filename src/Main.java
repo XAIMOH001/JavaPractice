@@ -1,15 +1,14 @@
 public class Main{
-    public void fullThrow(){
-        System.out.println("The car is at max speed.");
+    public void myMethod1(){
+        System.out.println("Hello every one");
     }
-
-    public  void maxSpeed(int s){
-        System.out.println("The max speed is " + s + "KM/h.");
+    public void myMethod2(){
+        System.out.println("my Name is chau Im new in Java");
     }
 
     public static void main(String[] args){
-        Main myObject = new Main();
-        myObject.fullThrow();
-        myObject.maxSpeed(180);
+        Main Obj = new Main();
+        Obj.myMethod1();
+        Obj.myMethod2();
     }
 }
