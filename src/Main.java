@@ -1,13 +1,15 @@
-public class Main {
-    public static void main(String[] args){
-        int a = 3;
-        boolean b = false;
-        byte c = 127;
-        short d = 3000;
-        long e = 67900000;
-        char grade = 'A';
-        float f = 7.564f;
-        double g = 34.67;
+public class Main{
+    public void fullThrow(){
+        System.out.println("The car is at max speed.");
+    }
 
+    public  void maxSpeed(int s){
+        System.out.println("The max speed is " + s + "KM/h.");
+    }
+
+    public static void main(String[] args){
+        Main myObject = new Main();
+        myObject.fullThrow();
+        myObject.maxSpeed(180);
     }
 }
