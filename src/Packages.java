@@ -13,9 +13,12 @@ public class    Packages {
 */
 
 //user-defined packages
+/*
 package mypack;
 class packages{
     public static void main (String[] args){
         System.out.println("This is my package class");
     }
-}
+}*/
+
+
