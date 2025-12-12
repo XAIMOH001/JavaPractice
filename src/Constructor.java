@@ -30,6 +30,7 @@ public class Constructor{
 }
  */
 
+/*
 //this keyword
 public class Constructor{
     int x;
@@ -46,4 +47,27 @@ public class Constructor{
         System.out.println(character.x);
     }
 }
+*/
 
+public class Constructor{
+    int x;
+    String y;
+
+    // Constructor with one parameter
+    public Constructor(String y){
+        this(2020, y);
+    }
+
+    // Constructor with two parameters
+    public Constructor(int x, String y) {
+        this.x= x;
+        this.y = y;
+    }
+
+    public static void main(String[] args) {
+        Constructor car1 = new Constructor("Corvette");
+        Constructor car2 = new Constructor(1969, "Mustang");
+        System.out.println(car1.x + " " + car1.y);
+        System.out.println(car2.x + " " + car2.y);
+    }
+}
