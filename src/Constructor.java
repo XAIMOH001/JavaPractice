@@ -49,7 +49,7 @@ public class Constructor{
 }
 */
 
-public class Constructor{
+/*public class Constructor{
     int x;
     String y;
 
@@ -70,4 +70,6 @@ public class Constructor{
         System.out.println(car1.x + " " + car1.y);
         System.out.println(car2.x + " " + car2.y);
     }
-}
+}*/
+
+
