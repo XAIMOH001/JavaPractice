@@ -1,3 +1,4 @@
+
 // get and set Methods syntax
 public class Encaps {
     private String name;

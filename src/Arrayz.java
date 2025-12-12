@@ -11,7 +11,7 @@ public class Arrayz {
         System.out.println(sum);
 
         //using for loop to display seatNO an plus passenger
-        String[] seats = {"mina", "luciana", "Erika", "hebesa"};
+        String[] seats = {"mina", "luciana", "Erika", "Liquor"};
         for (int i = 0; i < seats.length; i++){
             System.out.println("Seat number " +  i + " is " + "taken by " + seats[i]);
         }
