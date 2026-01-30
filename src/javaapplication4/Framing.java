@@ -12,35 +12,47 @@ class myFrame extends Frame implements MouseListener{
     }
     @Override
     public void paint(Graphics g){
-        g.drawString("msg", x, y);
+        g.drawString(msg, x, y);
     }
 
     @Override
     public void mouseClicked(MouseEvent e) {
         x = e.getX();
         y = e.getY();
-        msg = "Mouse clicked at " + x + " " + y;
+        msg = "Mouse clicked at " + x + "," + " " + y;
         repaint();
     }
 
     @Override
     public void mousePressed(MouseEvent e) {
-
+        x = e.getX();
+        y = e.getY();
+        msg = "Mouse pressed at " + x + "," + " " + y;
+        repaint();
     }
 
     @Override
     public void mouseReleased(MouseEvent e) {
-
+        x = e.getX();
+        y = e.getY();
+        msg = "Mouse released at " + x + "," + " " + y;
+        repaint();
     }
 
     @Override
     public void mouseEntered(MouseEvent e) {
-
+        x = e.getX();
+        y = e.getY();
+        msg = "Mouse entered at " + x + "," + " " + y;
+        repaint();
     }
 
     @Override
     public void mouseExited(MouseEvent e) {
-
+        x = e.getX();
+        y = e.getY();
+        msg = "Mouse exited at " + x + "," + " " + y;
+        repaint();
     }
 
 }
